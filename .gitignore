@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment files
+.env
+*.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Django migrations (optional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py
+
+# VS Code & IDE configs
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy, pylint, pytest
+.mypy_cache/
+.pytest_cache/
+pylint-report.txt
+
+# Database
+*.sqlite3
+
+# Node (if you're mixing frontend)
+node_modules/
+
+# Compiled JS/CSS
+staticfiles/
+build/
+dist/
